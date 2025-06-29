@@ -1,0 +1,146 @@
+/* 
+  font-family: "Poppins", sans-serif
+  font-family: "Raleway", sans-serif;
+  font-family: "Playfair", serif; */
+h1,h3 {
+  font-family: "Playfair";
+}
+.herotext h1{
+  font-weight: 700;
+  font-size: 3.5em;
+}
+.row .herotext {
+    margin-top: 15%;
+}
+.button .btn {
+    margin-right: 10%;
+}
+
+.hero {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background: #a66ccc;
+background: linear-gradient(90deg, rgba(166, 108, 204, 0.85) 0%, rgba(255, 41, 41, 0.75) 50%, rgba(250, 155, 22, 0.78) 100%);
+}
+.btn img:hover{
+  filter: drop-shadow(4px 4px 8px gray); 
+  /* filter drop shadow indicates x,y and blurriness  */
+  
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+/* inspired form gumroad website */
+.download {
+  --bg: #000;
+  --hover-bg: #ff90e8;
+  --hover-text: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 0.8em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+}
+
+.download:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem, -0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.download:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+
+.newcard {
+  margin-top: 2%;
+  width: 295px;
+  height: 370px;
+  padding: 20px;
+  color: rgb(13, 3, 3);
+  border: 2px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transform-origin: right bottom;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.newcard .main-content {
+  flex: 1;
+}
+
+.newcard .header span:first-child {
+  font-weight: 600;
+  color: #383737;
+  margin-right: 4px;
+}
+
+.newcard .heading {
+  font-size: 24px;
+  margin: 24px 0 16px;
+  font-weight: 600;
+}
+
+.newcard .categories {
+  display: flex;
+  gap: 8px;
+}
+
+.newcard .categories span {
+  background-color: #f48dff;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 50em;
+}
+
+.newcard .footer {
+  font-weight: 600;
+  color: #383535;
+  margin-right: 4px;
+}
+
+.newcard:hover {
+  rotate: 8deg;
+}
+/* card */
+.download {
+  margin-top: 6%;
+}
+
+/* 2nd card */
+
+/* 2nd card */
+
+.products:hover{
+   filter: drop-shadow(4px 4px 8px rgb(101, 83, 83));
+}
+
+u {
+  text-decoration-color: #814da2;}
+
+  .footer2 {
+    background-color: #000;
+    height: 25rem;
+    color: white;
+    font-weight: 1;
+    text-align: center;
+  }
+  .social {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-bottom: ;
+
+  }
+* {
+  font-family: "Poppins";
+}

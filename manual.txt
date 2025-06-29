@@ -1,0 +1,1 @@
+1.Open a repo in github, go to green button "CODE" and copy the code
