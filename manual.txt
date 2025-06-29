@@ -1,1 +1,11 @@
 1.Open a repo in github, go to green button "CODE" and copy the code
+
+2. git clone the repository in local terminal using the command:
+    git clone url_you_copied_at_step_1
+
+3. add all the files
+
+4. run these commands:
+        a.git add .             this command adds all the file. fullstop means "all"
+        b.git commit -m "Message"   this command stages the files to cloud, makes them ready to be pushed
+        c.git push origin main      this pushes to cloud
